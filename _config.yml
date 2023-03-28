@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: CA # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Edmonton # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "John Holash"
+  name   : "Dr. John Holash"
   avatar : "/assets/images/new-bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Assistant Professor (Teaching) // Exercise Physiologist / Computational Biology."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
