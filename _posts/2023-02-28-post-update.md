@@ -1,6 +1,6 @@
 ---
 title: "Welcome to KNES 381!"
-date:  
+date:  2023-03-18T15:34:30-04:00
 categories:
   - blog
 tags:
