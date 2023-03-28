@@ -1,13 +1,13 @@
 ---
 title: "Welcome to KNES 381!"
-date:  2023-03-18T15:34:30-04:00
+date:  2023-03-28 
 categories:
   - blog
 tags:
   - KNES-381
   - update
 ---
-
+# time in T14:38:30-07:00
 This is one of the first files I updated created new in this section
 
 The front matter is the content between the triple dashes and has a specific format that jekyll is looking for.
