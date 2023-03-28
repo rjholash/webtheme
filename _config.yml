@@ -33,7 +33,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Edmonton # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 header:
-teaser: /assets/images/COLOURBOX16037408.jpg
+  teaser: /assets/images/COLOURBOX16037408.jpg
 include:
   - _pages
 
