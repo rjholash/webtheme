@@ -21,7 +21,7 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
-![image-center](../assets/images/bio-photo.jpg){: .align-center}
+![image-center](/webtheme/assets/images/COLOURBOX16037408.jpg){: .align-center}
 ![caption](/webtheme/assets/images/bio-photo.jpg)
 ![caption](assets/images/bio-photo.jpg)
 ![caption](../assets/images/bio-photo.jpg)
