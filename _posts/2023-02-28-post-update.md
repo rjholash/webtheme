@@ -1,18 +1,20 @@
 ---
-title: "Welcome to KNES 381!"
-date:  2023-03-28 
+title: "Getting images to show in the posts, post!"
+date:  2023-04-07 
 categories:
   - blog
 tags:
   - KNES-381
   - update
+  - post-images
 ---
-# time in T14:38:30-07:00
+# time in T19:34:30-07:00
+This time codes reads 7:34pm Mountain Standard time (GMT-7)
 This is one of the first files I updated created new in this section
 
 The front matter is the content between the triple dashes and has a specific format that jekyll is looking for.
 
-Jekyll also offers powerful support for code snippets:
+I have placed the corrections to the posting image paths that I have made below
 
 ```ruby
 # to get the images to disply here I had to add /webtheme to the path
@@ -27,6 +29,7 @@ Jekyll also offers powerful support for code snippets:
 ![working_path](/webtheme/assets/images/bio-photo.jpg)
 ![broken_path](/assets/images/bio-photo.jpg)
 ![broken_path](../assets/images/bio-photo.jpg)
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
