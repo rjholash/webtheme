@@ -15,16 +15,18 @@ The front matter is the content between the triple dashes and has a specific for
 Jekyll also offers powerful support for code snippets:
 
 ```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+# to get the images to disply here I had to add /webtheme to the path
+# this top code displays the bio-photo shadow image
+![caption](/webtheme/assets/images/bio-photo.jpg)
+# this standard path code shows a broken image
+![caption](/assets/images/bio-photo.jpg)
+# so does this pathing even though autocomplete works with the pathing below!
+![caption](../assets/images/bio-photo.jpg)
 ```
 ![image-center](/webtheme/assets/images/COLOURBOX16037408.jpg){: .align-center}
-![caption](/webtheme/assets/images/bio-photo.jpg)
-![caption](assets/images/bio-photo.jpg)
-![caption](../assets/images/bio-photo.jpg)
+![working_path](/webtheme/assets/images/bio-photo.jpg)
+![broken_path](/assets/images/bio-photo.jpg)
+![broken_path](../assets/images/bio-photo.jpg)
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
