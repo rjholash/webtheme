@@ -29,6 +29,10 @@ I have placed the corrections to the posting image paths that I have made below
 ![working_path](/webtheme/assets/images/bio-photo.jpg)
 ![broken_path](/assets/images/bio-photo.jpg)
 ![broken_path](../assets/images/bio-photo.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jpg)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jph" alt="">
+
+
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
