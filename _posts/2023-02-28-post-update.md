@@ -30,7 +30,10 @@ I have placed the corrections to the posting image paths that I have made below
 ![broken_path](/assets/images/bio-photo.jpg)
 ![broken_path](../assets/images/bio-photo.jpg)
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jpg)
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jph" alt="">
+
+I will enter some space betwee the two versions of the code posting suggested for by the theme manager...
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jpg" alt="">
 
 
 
