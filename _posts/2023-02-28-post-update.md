@@ -35,10 +35,19 @@ I will enter some space betwee the two versions of the code posting suggested fo
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jpg" alt="">
 
+```ruby
+# to post images the supported way is iether through markdown language like this
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jpg)
 
+# or the html way
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.jpg" alt="">
 
+# in both cases the key for this working is the inclusion of the double bracket site.url and site.baseurl in the tags
+```
+Thanks to Carrisa to directing me to this post [Minimal Mistakes][MM_link]
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+[MM_link]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-image-standard/
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
